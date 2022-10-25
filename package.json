@@ -1,19 +1,19 @@
 {
-  "name": "writing-sass",
+  "name": "maintainable-css-with-sass-pt04ch02_start",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "CSS is the palette we use to paint the web, making pages beautiful, identifiable, and responsive. In this class we’ll learn to write clean, maintainable, and modular CSS code through the implementation of designed naming and file structures, such as BEM, and the use of SASS, a CSS precompiler.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
+    "url": "git+https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start.git"
   },
-  "author": "gerkx",
+  "author": "Romain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"
+    "url": "https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start/issues"
   },
-  "homepage": "https://github.com/gerkx/maintainable-css-with-sass#readme"
+  "homepage": "https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start#readme"
 }
