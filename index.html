@@ -1,111 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
-    <link rel="stylesheet" href="/public/css/style.css">
-    <title>Joe Blow's Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
+        <link rel="stylesheet" href="/public/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Ohmyfood</title>
+    </head>
 <body>
-
     <header class="header">
-        <h1 class="header__logo">
-            Joe Blow
-        </h1>
-        <nav class="nav">
-            <ul>
-                <li class="nav__link nav__link--active">work</li>
-                <li class="nav__link"> <a href="/about.html">about</a> </li>
-                <li class="nav__link"> <a href="/contact.html">contact</a> </li>
-            </ul>
-
-        </nav>
+        <picture class="header__logo">
+            <!-- <source srcset="" media="(min-width: 800px)"> -->
+            <img src="public/img/logo/ohmyfood@2x.svg" alt="">
+        </picture>
+        <section class="header__localisation">
+            <p>Paris, Belleville</p>
+        </section>
+        <section class="header__title">
+            <h1>Reserver le menu qui vous convient</h1>
+            <h2>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h2>
+            <button class="btn btn--medium-width header__title__button">Explorer non restaurants</button>
+        </section>
     </header>
+    <main>
+        <section class="container">
+            <h1>Fonctionnement</h1>
+            <div class="main__fonctionnement">
+                <div class="main__fonctionnement__etapes">
+                    <div class="main__fonctionnement__etape">1</div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <span>Choisissez un restaurant</span>
+                </div>
+                <div class="main__fonctionnement__etapes">
+                    <div class="main__fonctionnement__etape">2</div>
+                    <i class="fa-sharp fa-solid fa-list"></i>
+                    <span>Composez votre menu</span>
+                </div>
+                <div class="main__fonctionnement__etapes">
+                    <div class="main__fonctionnement__etape">3</div>
+                    <i class="fa-solid fa-store"></i>
+                    <span>Dégustez au restaurant</span>
+                </div>
+            </div>
+        </section>
 
-    <section class="quote">
-        "We are the <strong>music makers,</strong>
-        <br/>
-        and we are the <strong>dreamers of dreams."</strong>
-    </section>
-    
-    <main class="container">
-        <div class="proj-grid">
-            <section class="proj-prev" onclick="location.href='/project.html'" >
-                <div class="proj-prev__image">
-                        <img src="/public/img/photography_1280w.jpg" srcset="
-                        /public/img/photography_3000w.jpg 3000w,
-                        /public/img/photography_1920w.jpg 1920w,
-                        /public/img/photography_0864w.jpg 864w,
-                        /public/img/photography_0640w.jpg 640w,
-                        /public/img/photography_0640w.jpg 640w,
-                        /public/img/photography_0420w.jpg 420w
-                    " alt="project title goes here" >
-                </div>
-                <h1 class="proj-prev__heading">
-                    Project Title
-                </h1>
-                <p class="proj-prev__byline">
-                    project keywords would go here
-                </p>
-            </section>
-            <section class="proj-prev">
-                <div class="proj-prev__image">
-                        <img src="/public/img/photography_1280w.jpg" srcset="
-                        /public/img/photography_3000w.jpg 3000w,
-                        /public/img/photography_1920w.jpg 1920w,
-                        /public/img/photography_0864w.jpg 864w,
-                        /public/img/photography_0640w.jpg 640w,
-                        /public/img/photography_0640w.jpg 640w,
-                        /public/img/photography_0420w.jpg 420w
-                    " alt="project title goes here" >
-                </div>
-                <h1 class="proj-prev__heading">
-                    Project Title
-                </h1>
-                <p class="proj-prev__byline">
-                    project keywords would go here
-                </p>
-            </section>
-            <section class="proj-prev">
-                    <div class="proj-prev__image">
-                            <img src="/public/img/photography_1280w.jpg" srcset="
-                            /public/img/photography_3000w.jpg 3000w,
-                            /public/img/photography_1920w.jpg 1920w,
-                            /public/img/photography_0864w.jpg 864w,
-                            /public/img/photography_0640w.jpg 640w,
-                            /public/img/photography_0640w.jpg 640w,
-                            /public/img/photography_0420w.jpg 420w
-                        " alt="project title goes here" >
+        <section class="container">
+            <h1>Restaurants</h1>
+            <div class="main__restaurants">
+                <div class="main__restaurants__resto">
+                    <picture>
+                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg"
+                                media="(min-width: 800px)">
+                        <img src="public/img/restorants/cohen-restaurant-gill-45.jpg" alt="">
+                    </picture>
+                    <div>
+                        <h3>La palette du goût</h3>
+                        <span>Ménilmontant</span>
                     </div>
-                    <h1 class="proj-prev__heading">
-                        Project Title
-                    </h1>
-                    <p class="proj-prev__byline">
-                        project keywords would go here
-                    </p>
-                </section>            <section class="proj-prev">
-                        <div class="proj-prev__image">
-                                <img src="/public/img/photography_1280w.jpg" srcset="
-                                /public/img/photography_3000w.jpg 3000w,
-                                /public/img/photography_1920w.jpg 1920w,
-                                /public/img/photography_0864w.jpg 864w,
-                                /public/img/photography_0640w.jpg 640w,
-                                /public/img/photography_0640w.jpg 640w,
-                                /public/img/photography_0420w.jpg 420w
-                            " alt="project title goes here" >
-                        </div>
-                        <h1 class="proj-prev__heading">
-                            Project Title
-                        </h1>
-                        <p class="proj-prev__byline">
-                            project keywords would go here
-                        </p>
-                    </section>
-        </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+        </section>
         
     </main>
-
 </body>
 </html>

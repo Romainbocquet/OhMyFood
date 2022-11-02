@@ -4,7 +4,7 @@
     &__heading {
         width: 100%;
         color: $colour-white;
-        @include heading-shadow;
+        @include box-shadow;
         background: $colour-primary;
         line-height: 5rem;
         padding: $grid-gutter;

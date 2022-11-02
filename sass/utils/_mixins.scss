@@ -1,38 +1,83 @@
-@mixin heading-shadow($colour:lightness-shift($colour-primary), $offset: $heading-shadow-size){
-    text-shadow: $offset $offset $colour;
+@mixin box-shadow($colour: $colour-primary) {
+    box-shadow: 0 3px 8px 0px $colour;
 }
 
-@mixin border($colour:$colour-primary) {
+@mixin border($colour: $colour-primary) {
     border: .1rem solid $colour;
 }
 
 @mixin img-ratio {
     width: 100%;
-        display: block;
-        overflow: hidden;
-        padding-top: 56.25%;
-        position: relative;
-        & img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 100%;
-            transform: translate(-50%, -50%);
-        }
+    display: block;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+
+    & img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @mixin btn {
     padding: $grid-gutter;
-    @include border;
-    color: $colour-primary;
-    background: $colour-secondary;
+    background: $gradient;
+    color: $colour-white;
     cursor: pointer;
-    &:hover{
-        background: $colour-primary;
-        color: $colour-accent;
+    border-radius: 40px;
+    border: none;
+    margin-top: $grid-gutter * 2;
+
+    &--medium-width {
+        width: 65%;
     }
-    &--full-width {
-        width: 100%;
-        margin: 0 auto;
+}
+
+
+@mixin info {
+    &__etapes {
+        padding: 15px;
+        font-weight: bold;
+        background-color: $colour-white;
+        margin-top: 30px;
+        @include box-shadow($colour-black-shadow);
+        border-radius: 15px;
+        width: 300px;
+
+        & i {
+            margin-right: 20px;
+            color: gray;
+        }
+    }
+    &__etape {
+        background-color: $colour-primary;
+        position: absolute;
+        left: 20px;
+        border-radius: 50px;
+        padding: 0px 6px;
+        color: $colour-white;
+    }
+}
+
+@mixin resto {
+    &__resto {
+        display: flex;
+        justify-content: space-between;
+
+        & i {
+            font-size: 30px;
+            align-self: center;
+        }
+    }
+    &__etape {
+        background-color: $colour-primary;
+        position: absolute;
+        left: 20px;
+        border-radius: 50px;
+        padding: 0px 6px;
+        color: $colour-white;
     }
 }

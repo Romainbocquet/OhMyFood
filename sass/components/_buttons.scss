@@ -1,3 +1,15 @@
 .btn {
     @include btn
 }
+
+.main__fonctionnement {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include info;
+    margin-bottom: 20px;
+}
+
+.main__restaurants {
+    @include resto;
+}

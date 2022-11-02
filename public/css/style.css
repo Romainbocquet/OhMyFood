@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 *,
 *::after,
 *::before {
@@ -12,22 +14,26 @@ html {
 
 body {
   box-sizing: border-box;
-  background: #001534;
+  background: #fff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #15DEA5;
+  color: #111;
   font-size: 2rem;
   font-weight: 100;
-  line-height: 1.7;
 }
 
 h1 {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 1000;
+  font-size: 2.4rem;
+}
+
+h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-size: 5rem;
-  font-style: italic;
+  font-weight: 300;
+  font-size: 1.8rem;
 }
 
 textarea {
@@ -38,40 +44,107 @@ textarea {
 
 button {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 2.75rem;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #001534;
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+  color: #fff;
   cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  margin-top: 3rem;
 }
-.btn:hover {
-  background: #15DEA5;
-  color: #D6FFF5;
+.btn--medium-width {
+  width: 65%;
 }
-.btn--full-width {
-  width: 100%;
-  margin: 0 auto;
+
+.main__fonctionnement {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.main__fonctionnement__etapes {
+  padding: 15px;
+  font-weight: bold;
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 0 3px 8px 0px rgba(17, 17, 17, 0.2);
+  border-radius: 15px;
+  width: 300px;
+}
+.main__fonctionnement__etapes i {
+  margin-right: 20px;
+  color: gray;
+}
+.main__fonctionnement__etape {
+  background-color: #9356DC;
+  position: absolute;
+  left: 20px;
+  border-radius: 50px;
+  padding: 0px 6px;
+  color: #fff;
+}
+
+.main__restaurants__resto {
+  display: flex;
+  justify-content: space-between;
+}
+.main__restaurants__resto i {
+  font-size: 30px;
+  align-self: center;
+}
+.main__restaurants__etape {
+  background-color: #9356DC;
+  position: absolute;
+  left: 20px;
+  border-radius: 50px;
+  padding: 0px 6px;
+  color: #fff;
 }
 
 .header {
-  background: #15DEA5;
-  height: 10rem;
+  background: #fff;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   width: 100%;
+  flex-direction: column;
 }
 .header__logo {
-  font-size: 7rem;
-  color: #001534;
-  margin-left: 10rem;
-  text-shadow: 0.55rem 0.55rem #fff;
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 8px 0px rgba(17, 17, 17, 0.2);
+  z-index: 99;
+}
+.header__logo img {
+  width: 150px;
+}
+.header__localisation {
+  background-color: rgba(214, 214, 214, 0.6235294118);
+  width: 100%;
+  font-weight: 900;
+  font-size: 1.7rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  background-color: rgba(240, 240, 240, 0.6745098039);
+}
+.header__title h1 {
+  font-family: "Roboto", sans-serif !important;
+  padding: 0px 40px 10px 40px;
 }
 
 .nav {
@@ -86,23 +159,21 @@ button {
 }
 .nav__link a {
   text-decoration: none;
-  color: #D6FFF5;
+  color: rgba(214, 214, 214, 0.6235294118);
 }
 .nav__link--active {
-  color: #001534;
+  color: #FF79DA;
 }
 .nav__link--active:hover {
   cursor: default;
-  color: #001534;
+  color: #FF79DA;
 }
 .nav__link a:hover {
   color: #fff;
 }
 
 .container {
-  margin: 6rem;
-  padding: 1.5rem 1.5rem 0 1.5rem;
-  border: 0.1rem solid #D6FFF5;
+  padding: 1.5rem;
 }
 
 .form {
@@ -112,13 +183,13 @@ button {
 .form__heading {
   width: 100%;
   color: #fff;
-  text-shadow: 0.55rem 0.55rem #11af82;
-  background: #15DEA5;
+  box-shadow: 0 3px 8px 0px #9356DC;
+  background: #9356DC;
   line-height: 5rem;
   padding: 1.5rem;
 }
 .form__field label {
-  color: #D6FFF5;
+  color: rgba(214, 214, 214, 0.6235294118);
   display: block;
   font-size: 2rem;
   line-height: 2rem;
@@ -126,22 +197,22 @@ button {
 }
 .form__field input {
   width: 100%;
-  background: #001534;
-  border: 0.1rem solid #15DEA5;
+  background: #FF79DA;
+  border: 0.1rem solid #9356DC;
   padding: 1.5rem;
-  color: #D6FFF5;
+  color: rgba(214, 214, 214, 0.6235294118);
   font-weight: 900;
   font-style: italic;
   font-size: 2.75rem;
-  border: 0.1rem solid #15DEA5;
-  background-color: #001534;
-  color: #15DEA5;
+  border: 0.1rem solid #9356DC;
+  background-color: #FF79DA;
+  color: #9356DC;
 }
 .form__field textarea {
   width: 100%;
-  color: #15DEA5;
-  background: #001534;
-  border: 0.1rem solid #15DEA5;
+  color: #9356DC;
+  background: #FF79DA;
+  border: 0.1rem solid #9356DC;
   outline: none;
   padding: 1.5rem;
   margin-bottom: 0.75rem;
@@ -152,11 +223,11 @@ button {
   font-size: 6rem;
   font-weight: 900;
   font-style: italic;
-  color: #D6FFF5;
+  color: rgba(214, 214, 214, 0.6235294118);
   margin: 2rem 6rem -3rem 6rem;
 }
 .quote strong {
-  color: #15DEA5;
+  color: #9356DC;
 }
 
 .proj-grid {
@@ -199,7 +270,7 @@ button {
   cursor: pointer;
 }
 .proj-prev:hover > .proj-prev__heading {
-  background: #15DEA5;
+  background: #9356DC;
 }
 .proj-prev:hover > .proj-prev__image {
   opacity: 1;
@@ -217,7 +288,7 @@ button {
 .about__heading {
   grid-area: heading;
   color: #fff;
-  text-shadow: 0.55rem 0.55rem #11af82;
+  box-shadow: 0 3px 8px 0px #9356DC;
   text-align: right;
   padding-right: 1.5rem;
 }
@@ -228,7 +299,7 @@ button {
   overflow: hidden;
   width: 80%;
   border-radius: 1000rem;
-  border: 1.5rem solid #15DEA5;
+  border: 1.5rem solid #9356DC;
 }
 .about__pic img {
   display: block;
@@ -243,19 +314,16 @@ button {
 }
 .about__btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #001534;
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+  color: #fff;
   cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  margin-top: 3rem;
   grid-area: btn;
 }
-.about__btn:hover {
-  background: #15DEA5;
-  color: #D6FFF5;
-}
-.about__btn--full-width {
-  width: 100%;
-  margin: 0 auto;
+.about__btn--medium-width {
+  width: 65%;
 }
 .about__btn a {
   text-decoration: none;
@@ -291,7 +359,7 @@ button {
 }
 .project__synopsis h1 {
   color: #fff;
-  text-shadow: 0.55rem 0.55rem #11af82;
+  box-shadow: 0 3px 8px 0px #9356DC;
 }
 .project__synopsis p {
   line-height: 2.5rem;
@@ -303,25 +371,22 @@ button {
   color: #fff;
 }
 .project__tags p strong {
-  color: #15DEA5;
+  color: #9356DC;
   font-weight: 900;
   font-style: italic;
 }
 .project__btn {
   padding: 1.5rem;
-  border: 0.1rem solid #15DEA5;
-  color: #15DEA5;
-  background: #001534;
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+  color: #fff;
   cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  margin-top: 3rem;
   grid-area: btn;
 }
-.project__btn:hover {
-  background: #15DEA5;
-  color: #D6FFF5;
-}
-.project__btn--full-width {
-  width: 100%;
-  margin: 0 auto;
+.project__btn--medium-width {
+  width: 65%;
 }
 
 /*# sourceMappingURL=style.css.map */

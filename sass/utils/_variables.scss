@@ -1,9 +1,19 @@
-$colour-primary: #15DEA5;
-$colour-secondary: #001534;
-$colour-accent: #D6FFF5;
+$colour-primary: #9356DC;
+$colour-secondary: #FF79DA;
+$colour-tertiary: #f0f0f0ac;
+$colour-accent: #d6d6d69f;
 $colour-white: #fff;
+$colour-black: #111;
+$gradient: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+
+$colour-black-shadow: rgba(17, 17, 17, 0.2);
 $colour-invalid: #DB464B;
 
-$heading-shadow-size: .55rem;
 $layout-margin: 6rem;
 $grid-gutter: $layout-margin * .25;
+
+$magin-base: 40px;
+
+// Font Variables
+$shrikhand-font: 'Shrikhand', sans-serif;   
+$roboto-font: 'Roboto', sans-serif;

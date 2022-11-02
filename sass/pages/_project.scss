@@ -18,7 +18,7 @@
         padding-left: $grid-gutter;
         & h1 {
             color: $colour-white;
-            @include heading-shadow;
+            @include box-shadow;
         }
         & p {
             line-height: 2rem*1.25;
