@@ -1,8 +1,22 @@
 .header {
     background: $colour-white;
-    display: flex;
     width: 100%;
-    flex-direction: column;
+    &__topimg {
+        background-image: url("/public/img/restorants/istock-1081422898.jpg");
+        width: 101%;
+        height: auto;
+        min-height: 300px;
+        object-fit: cover;
+        position: fixed;
+        z-index: -99;
+    }
+    &__arrow {
+        position: absolute;
+        left: 20px;
+        font-size: 25px;
+        text-decoration: none;
+        top: 18px;
+    }
     &__logo {
         height: 6.5rem;
         display: flex;
@@ -22,6 +36,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        i {
+            margin-right: 15px;
+        }
     }
     &__title {
         width: 100%;

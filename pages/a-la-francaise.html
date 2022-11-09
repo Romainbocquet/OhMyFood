@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Ohmyfood - A la Française</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="header__topimg">
+    </section>
+    <a class="header__arrow" href="../index.html">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <picture class="header__logo">
+      <!-- <source srcset="" media="(min-width: 800px)"> -->
+      <img src="../public/img/logo/ohmyfood@2xblack.svg" alt="">
+    </picture>
+
+  </header>
+  <main>
+    <div class="container menu">
+      <section class="menu__header">
+        <h1 class="menu__header__title"> A la Française</h1>
+
+        <div class="like">
+          <input class="like__resto" type="checkbox" name="aime" id="like-resto">
+          <label for="like-resto" class="heart">
+            <span class=" heart__filtre--notempty">
+              <i class="fas fa-heart"></i>
+            </span>
+            <span class="heart__filtre--empty">
+              <i class="far fa-heart"></i>
+            </span>
+          </label>
+        </div>
+
+      </section>
+      <form class="menu__form">
+        <h2 class="menu__form__title">
+          ENTREES
+          <span class="menu__form__title--barre"></span>
+        </h2>
+
+        <fieldset class="menu__form__entree">
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="entree1" class="selected">
+            <label for="entree1" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="entree2" class="selected">
+            <label for="entree2" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="entree3" class="selected">
+            <label for="entree3" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+        </fieldset>
+
+        <h2 class="menu__form__title">
+          PLATS
+          <span class="menu__form__title--barre"></span>
+        </h2>
+        <fieldset class="menu__form__entree">
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="plat1" class="selected">
+            <label for="plat1" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="plat2" class="selected">
+            <label for="plat2" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="plat3" class="selected">
+            <label for="plat3" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+        </fieldset>
+        <h2 class="menu__form__title">
+          DESSERTS
+          <span class="menu__form__title--barre"></span>
+        </h2>
+        <fieldset class="menu__form__entree">
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="dessert1" class="selected">
+            <label for="dessert1" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="dessert2" class="selected">
+            <label for="dessert2" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+          <div class="menu__form__entree--selected">
+            <input type="checkbox" name="menu_la_palette_du_gout" id="dessert3" class="selected">
+            <label for="dessert3" class="plate plate--un">
+              <span class="plate__texte">
+                <span class="plate__texte__title">Taretare de poulpe acidulé</span>
+                <span class="plate__texte__title">Au zestes d'orange</span>
+              </span>
+              <span class="plate__prix">25€</span>
+              <span class="plate--checked">
+                <i class="fas fa-check-circle"></i>
+              </span>
+            </label>
+          </div>
+        </fieldset>
+        <section class="menu__commander">
+          <button class="btn btn--medium-width header__title__button">Commander</button>
+        </section>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer container">
+    <img src="../public/img/logo/ohmyfood@2x.svg" alt="logo-ohmyfood">
+    <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+    <a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+    <a href="#">Mention légales</a>
+    <a href="#">contact</a>
+</footer>
+</body>
+
+</html>

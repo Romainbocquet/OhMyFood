@@ -1,0 +1,18 @@
+%tap-coeur{
+  height: 48px;
+  width: 48px;
+}
+
+%case{
+  display: flex;
+  flex-flow: row wrap;  
+  justify-content: space-around;
+  align-content:space-around;
+  border: none;
+}
+%selected{
+  width: 93vw;
+  height: 68px; 
+  display: flex;
+  transform: translateY(10px);
+}

@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
-        <link rel="stylesheet" href="/public/css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Ohmyfood</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ohmyfood</title>
+</head>
+
 <body>
     <header class="header">
         <picture class="header__logo">
             <!-- <source srcset="" media="(min-width: 800px)"> -->
-            <img src="public/img/logo/ohmyfood@2x.svg" alt="">
+            <img src="public/img/logo/ohmyfood@2xblack.svg" alt="">
         </picture>
         <section class="header__localisation">
+            <i class="fa-solid fa-location-dot"></i>
             <p>Paris, Belleville</p>
         </section>
         <section class="header__title">
@@ -51,19 +56,118 @@
             <div class="main__restaurants">
                 <div class="main__restaurants__resto">
                     <picture>
-                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg"
-                                media="(min-width: 800px)">
+                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg" media="(min-width: 800px)">
                         <img src="public/img/restorants/cohen-restaurant-gill-45.jpg" alt="">
                     </picture>
-                    <div>
-                        <h3>La palette du goût</h3>
-                        <span>Ménilmontant</span>
+                    <div class="main__restaurants__resto__info">
+                        <div>
+                            <h3>La palette du goût</h3>
+                            <span>Ménilmontant</span>
+                        </div>
+                        <div class="like">
+                            <input class="like__resto" type="checkbox" name="aime" id="like-resto3">
+                            <label for="like-resto3" class="heart">
+                                <span class=" heart__filtre--notempty">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span class="heart__filtre--empty">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </label>
+                        </div>
                     </div>
-                    <i class="fa-regular fa-heart"></i>
                 </div>
+                <div class="main__restaurants__label">Nouveau</div>
+            </div>
+            <div class="main__restaurants">
+                <div class="main__restaurants__resto">
+                    <picture>
+                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg" media="(min-width: 800px)">
+                        <img src="public/img/restorants/plat-beroi-pau-22-01.jpg" alt="">
+                    </picture>
+                    <div class="main__restaurants__resto__info">
+                        <div>
+                            <h3>La note enchantée</h3>
+                            <span>Charonne</span>
+                        </div>
+                        <div class="like">
+                            <input class="like__resto" type="checkbox" name="aime" id="like-resto4">
+                            <label for="like-resto4" class="heart">
+                                <span class=" heart__filtre--notempty">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span class="heart__filtre--empty">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__restaurants__label">Nouveau</div>
+            </div>
+            <a class="main__restaurants" href="/pages/a-la-francaise.html">
+                <div class="main__restaurants__resto">
+                    <picture>
+                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg" media="(min-width: 800px)">
+                        <img src="public/img/restorants/istock-1081422898.jpg" alt="">
+                    </picture>
+                    <div class="main__restaurants__resto__info">
+                        <div>
+                            <h3>A la Française</h3>
+                            <span>Cité Rouge</span>
+                        </div>
+                        <div class="like">
+                            <input class="like__resto" type="checkbox" name="aime" id="like-resto1">
+                            <label for="like-resto1" class="heart">
+                                <span class=" heart__filtre--notempty">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span class="heart__filtre--empty">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__restaurants__label">Nouveau</div>
+            </a>
+            <div class="main__restaurants">
+                <div class="main__restaurants__resto">
+                    <picture>
+                        <source srcset="public/img/restorants/cohen-restaurant-gill-45.jpg" media="(min-width: 800px)">
+                        <img src="public/img/restorants/google-maps-restaurants.jpg" alt="">
+                    </picture>
+                    <div class="main__restaurants__resto__info">
+                        <div>
+                            <h3>Le délice des sens</h3>
+                            <span>Folie-Méricourt</span>
+                        </div>
+                        <div class="like">
+                            <input class="like__resto" type="checkbox" name="aime" id="like-resto2">
+                            <label for="like-resto2" class="heart">
+                                <span class=" heart__filtre--notempty">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span class="heart__filtre--empty">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__restaurants__label">Nouveau</div>
             </div>
         </section>
-        
+
     </main>
+    <footer class="footer container">
+        <img src="public/img/logo/ohmyfood@2x.svg" alt="logo-ohmyfood">
+        <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
+        <a href="#"><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a>
+        <a href="#">Mention légales</a>
+        <a href="#">contact</a>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>

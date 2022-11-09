@@ -2,5 +2,17 @@
     padding: $grid-gutter;
 }
 
+.main__fonctionnement {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include info;
+    margin-bottom: 20px;
+}
 
-
+.main__restaurants {
+    @include resto;
+    position: relative;
+    text-decoration: none;
+    color: $colour-black;
+}

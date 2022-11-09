@@ -1,0 +1,21 @@
+.menu {
+  background-color: $colour-white;
+  z-index: 99;
+  width: 100%;
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 170px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  &__commander {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+}

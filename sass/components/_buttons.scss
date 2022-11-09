@@ -2,14 +2,8 @@
     @include btn
 }
 
-.main__fonctionnement {
+.like {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    @include info;
-    margin-bottom: 20px;
-}
-
-.main__restaurants {
-    @include resto;
+    align-items: center;
+    @include heart;
 }
