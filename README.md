@@ -1,4 +1,3 @@
-Here's a blank template to get started:
 ## About The Project
 
 [![HoMyFood][product-screenshot]](https://NicolasBrondin.github.io/basic-readme-template/)
@@ -21,24 +20,9 @@ DEMO : https://NicolasBrondin.github.io/basic-readme-template/
 ## Contact
 
 Romain Bocquet - 1romain.bocquet1@gmail.com
-
-Project Link: [https://github.com/github_username/github_repo](https://github.com/github_username/github_repo)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* This readme version is a simplified version of this [github repository](https://github.com/othneildrew/Best-README-Template) by Othneildrew
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield][linkedin-url]
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/romain-bocquet/
-[product-screenshot]: docs/cover.jpg
+[product-screenshot]: /public/img/logo/OhMyFoodScreen.png
