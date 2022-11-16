@@ -1,5 +1,6 @@
 .container {
     padding: $grid-gutter;
+
     .desktop {
         display: flex;
         flex-wrap: wrap;
@@ -29,10 +30,10 @@
         width: 24%;
         margin-left: 10px;
     }
-  }
+}
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .desktop {
         flex-direction: column;
     }
-  }
+}

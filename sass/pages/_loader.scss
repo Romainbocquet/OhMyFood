@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  animation: fadeOut  3s ease-in;
+  animation: fadeOut 3s ease-in;
   transform: translateY(-100%);
 }
 
@@ -16,11 +16,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   img {
     margin: 30px 0px;
     height: 30px;
   }
 }
+
 .spinner {
   display: inline-block;
   width: 30px;
@@ -29,5 +31,5 @@
   border: 8px solid $colour-primary;
   border-right-color: transparent;
   border-radius: 50%;
-  animation: rotate-spinner  .5s  infinite linear;
+  animation: rotate-spinner .5s infinite linear;
 }
