@@ -1,0 +1,33 @@
+.loading-page-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: fadeOut  3s ease-in;
+  transform: translateY(-100%);
+}
+
+.loading-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin: 30px 0px;
+    height: 30px;
+  }
+}
+.spinner {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 8px solid $colour-primary;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: rotate-spinner  .5s  infinite linear;
+}

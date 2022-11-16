@@ -17,5 +17,11 @@
     justify-content: center;
     margin-top: 20px;
   }
+}
 
+@media (min-width: 700px) {
+  .menu {
+    border-radius: 0px;
+    margin-top: 30%;
+  }
 }
