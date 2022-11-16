@@ -1,12 +1,12 @@
 ## About The Project
 
-[![HoMyFood][product-screenshot]](https://Romainbocquet.github.io/Maintainable-CSS-with-SASS-pt04ch02_start/index.html)
+[![HoMyFood][product-screenshot]](https://romainbocquet.github.io/)
 
 Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux
 utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les
 restau.
 
-DEMO : https://Romainbocquet.github.io/Maintainable-CSS-with-SASS-pt04ch02_start/index.html
+DEMO : https://romainbocquet.github.io/
 
 ## Text Editor Used
 ![alttext](https://img.shields.io/badge/vscode-blue?style=flat&logo=visual-studio-code)
