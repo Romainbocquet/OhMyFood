@@ -21,6 +21,6 @@ Romain Bocquet - 1romain.bocquet1@gmail.com - [![Linkedin][linkedin-screenshot]]
 
 
 
-[linkedin-screenshot]: https://www.google.com/search?q=linkedin+logo&rlz=1C1VDKB_frFR990FR990&sxsrf=ALiCzsb_ay3EayfwgnwArDGw9OVCtt7s4g:1668594663711&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjf8NDBv7L7AhVIRaQEHYu5CGAQ_AUoAXoECAMQAw&biw=1536&bih=714&dpr=1.25#imgrc=JdyXos__tp7KHM
+[linkedin-screenshot]: https://https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/108px-LinkedIn_icon.svg.png
 [linkedin-url]: https://www.linkedin.com/in/romain-bocquet/
 [product-screenshot]: /public/img/logo/ohmyfood%402x.svg
