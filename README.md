@@ -17,7 +17,7 @@ DEMO : https://NicolasBrondin.github.io/basic-readme-template/
 <!-- CONTACT -->
 ## Contact
 
-Romain Bocquet - 1romain.bocquet1@gmail.com - [linkedin-screenshot][linkedin-url]
+Romain Bocquet - 1romain.bocquet1@gmail.com - [![Linkedin][linkedin-screenshot]][linkedin-url]
 
 
 
