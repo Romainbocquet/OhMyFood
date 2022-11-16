@@ -25,4 +25,4 @@ Romain Bocquet - 1romain.bocquet1@gmail.com
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/romain-bocquet/
-[product-screenshot]: /public/img/logo/OhMyFoodScreen.png
+[product-screenshot]: /public/img/logo/ohmyfood%402x.svg
