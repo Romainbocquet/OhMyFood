@@ -155,7 +155,7 @@ button {
 .like__resto {
   display: none;
 }
-.like__resto:checked + .heart .heart__filtre--notempty {
+.like:hover .heart__filtre--notempty {
   display: block;
   animation: opacity-scale 0.3s linear forwards;
 }

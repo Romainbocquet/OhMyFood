@@ -43,14 +43,8 @@
             -webkit-background-clip: text;
         }
     }
-
     &__resto {
         display: none;
-
-        &:checked+.heart .heart__filtre--notempty {
-            display: block;
-            animation: opacity-scale 0.3s linear forwards;
-        }
     }
 }
 

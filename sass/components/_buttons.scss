@@ -6,4 +6,10 @@
     display: flex;
     align-items: center;
     @include heart;
+    &:hover {
+        .heart__filtre--notempty {
+            display: block;
+            animation: opacity-scale 0.3s linear forwards;
+        }
+    }
 }
