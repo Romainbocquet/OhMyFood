@@ -19,7 +19,6 @@ body {
 
 main {
   padding-bottom: 30px;
-  background-color: #fff;
 }
 
 body {
@@ -63,21 +62,21 @@ button {
     opacity: 1;
   }
 }
-@keyframes oppacity-left {
+@keyframes oppacity-bottom {
   0% {
     opacity: 0;
   }
   30% {
     opacity: 0;
-    transform: translateX(250px);
+    transform: translateY(70px);
   }
   60% {
     opacity: 0.5;
-    transform: translateX(150px);
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 @keyframes bounce {
@@ -372,18 +371,48 @@ button {
 }
 .plate--1 {
   opacity: 0;
-  transform: translateX(500px);
-  animation: oppacity-left 0.6s linear 0.3s forwards;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 0.3s forwards;
 }
 .plate--2 {
   opacity: 0;
-  transform: translateX(500px);
-  animation: oppacity-left 0.6s linear 0.6s forwards;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 0.6s forwards;
 }
 .plate--3 {
   opacity: 0;
-  transform: translateX(500px);
-  animation: oppacity-left 0.6s linear 0.9s forwards;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 0.9s forwards;
+}
+.plate--4 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 1.2s forwards;
+}
+.plate--5 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 1.5s forwards;
+}
+.plate--6 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 1.8s forwards;
+}
+.plate--7 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 2.1s forwards;
+}
+.plate--8 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 2.4s forwards;
+}
+.plate--9 {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: oppacity-bottom 0.6s linear 2.7s forwards;
 }
 .plate__texte {
   min-width: 60%;
@@ -418,7 +447,6 @@ button {
   max-width: 0px;
   display: flex;
   color: #fff;
-  transition: all 0.4s linear;
 }
 
 .selected {
@@ -430,6 +458,9 @@ button {
   justify-content: center;
   align-items: center;
   transition: all 0.2s linear;
+}
+.selected:checked + .plate .plate--checked i {
+  animation: rotate-spinner 0.3s linear;
 }
 .selected:not(:checked) + .plate .plate--checked {
   transition: all 0.2s linear;

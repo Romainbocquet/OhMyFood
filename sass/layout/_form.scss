@@ -14,7 +14,6 @@
         margin-top: 5px;
         background-color: #99E2D0;
         transform-origin: 0% 50%;
-        ;
         transform: scaleX(0.5);
     }
 
@@ -41,20 +40,56 @@
 
     &--1 {
         opacity: 0;
-        transform: translateX(500px);
-        animation: oppacity-left 0.6s linear 0.3s forwards;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 0.3s forwards;
     }
 
     &--2 {
         opacity: 0;
-        transform: translateX(500px);
-        animation: oppacity-left 0.6s linear 0.6s forwards;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 0.6s forwards;
     }
 
     &--3 {
         opacity: 0;
-        transform: translateX(500px);
-        animation: oppacity-left 0.6s linear 0.9s forwards;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 0.9s forwards;
+    }
+
+    &--4 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 1.2s forwards;
+    }
+
+    &--5 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 1.5s forwards;
+    }
+
+    &--6 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 1.8s forwards;
+    }
+
+    &--7 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 2.1s forwards;
+    }
+
+    &--8 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 2.4s forwards;
+    }
+
+    &--9 {
+        opacity: 0;
+        transform: translateY(100px);
+        animation: oppacity-bottom 0.6s linear 2.7s forwards;
     }
 
     &__texte {
@@ -94,7 +129,6 @@
         max-width: 0px;
         display: flex;
         color: $colour-white;
-        transition: all 0.4s linear;
     }
 }
 
@@ -108,6 +142,9 @@
         justify-content: center;
         align-items: center;
         transition: all 0.2s linear;
+        i {
+            animation: rotate-spinner 0.3s linear;
+        }
     }
 
     &:not(:checked)+.plate .plate--checked {
