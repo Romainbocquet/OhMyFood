@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start.git"
+    "url": "git+https://github.com/Romainbocquet/Romainbocquet.github.io"
   },
   "author": "Romain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start/issues"
+    "url": "https://github.com/Romainbocquet/Romainbocquet.github.io/issues"
   },
-  "homepage": "https://github.com/Romainbocquet/Maintainable-CSS-with-SASS-pt04ch02_start#readme"
+  "homepage": "https://github.com/Romainbocquet/Romainbocquet.github.io#readme"
 }
